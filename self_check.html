@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gudea:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<header class="widthMax">
+    <div class="title_text">
+        <h1>WLB Check Sheet</h1>
+    </div>
+    <div class="sub_title_text">
+        Let's check your today's balance score and recognize it for your better future!
+        <br>
+        *WLB: Work Life Balance
+    </div>
+</header>
+
+<body>
+    <div class="text">
+        STEP１.きょうの活動で達成したジョブを選択してください。
+    </div>
+    
+    <div class="genre">
+        <div class="main">
+            <h2>１．仕事・働き方</h2>
+            <button id="goto_school" type="button">学校行く</button>
+            <button id="prep_presentations" type="button">プレゼン資料作成</button>
+            <button id="develop_apps" type="button">アプリ開発</button>
+            <button id="success_reaserch" type="button">研究で成果出す</button>
+            <button id="renew_UDC_website" type="button">UDCウェブサイト更新</button>
+            <button id="renew_ChouChou_website" type="button">ChouChouウェブサイト更新</button>
+            <button id="make_a_new_contract" type="button">個人事業新規契約</button>
+        </div>
+        
+        <div class="houselife">
+            <h2>２．家庭生活</h2>
+            <button id="take_a_bath" type="button">お風呂</button>
+            <button id="clean" type="button">掃除</button>
+            <button id="laundry" type="button">洗濯</button>
+            <button id="futon_laundry" type="button">布団洗濯</button>
+            <button id="cook" type="button">料理</button>
+        </div>
+
+        <div class="social">
+            <h2>３．地域・社会活動</h2>
+            <button id="talk_with_someone" type="button">人と会話する</button>
+            <button id="do_for_others" type="button">他人を思って行動する</button>
+            <button id="talk_with_heterosexual" type="button">異性と会話する</button>
+            <button id="dating" type="button">デートする</button>
+            <button id="play_with_animals" type="button">動物に触れる</button>
+            <button id="play_with_plants" type="button">植物に触れる</button>
+        </div>
+
+        <div class="intellectual">
+            <h2>４．学習や趣味・娯楽等</h2>
+            <button id="read_books" type="button">本を読む</button>
+            <button id="art" type="button">美術を鑑賞する</button>
+            <button id="see_the_scenery" type="button">景色を眺める</button>
+
+        </div>
+
+        <div class="health">
+            <h2>５．健康・休養</h2>
+            <button id="breakfast" type="button">朝食</button>
+            <button id="lunch" type="button">昼食</button>
+            <button id="dinner" type="button">夕食</button>
+            <button id="sleep" type="button">８時間睡眠</button>
+            <button id="hitgym" type="button">ジム</button>
+            <button id="cycling" type="button">自転車</button>
+            <button id="take_a_walk" type="button">散歩</button>
+            <button id="meditation" type="button">瞑想</button>
+        </div>
+    </div>
+
+    <div class="text">
+        STEP２．きょう一日を終えて一言。
+    </div>
+
+    <div class="diary">    
+        <textarea name="comment" cols="90" rows="10"></textarea>
+    </div>
+    
+    <div class="text">
+        STEP３．WLBをはかる。
+    </div>
+
+    <div class="calc_btn">
+        <button id="calc_button" type="button">WLBを計算</button>
+    </div>
+    
+    <div class="results">
+        <h3>○○さんの今日のWLB結果はこちら．． </h3>
+
+        <h4>明日も頑張るあなたにひとこと！</h4>
+        <textarea name="comment" cols="90" rows="10"></textarea>
+    </div>
+
+    <input type="radio" name="sex" id="man"><label for="man">男</label>
+    <input type="radio" name="sex" id="woman"><label for="woman">女</label>
+
+</body>
+</html>
+
+<script src="js/functions.js"></script>

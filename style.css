@@ -1,0 +1,43 @@
+header {
+    background-color:#E9F6E9;
+    font-family: 'Gudea', sans-serif;
+    height: 100%;
+}
+.widthMax {
+    margin: 0 calc(50% - 50vw);
+}
+
+body {
+    background-color:#92d293;
+    padding: 0 5rem 0 5rem;
+}
+.title_text {
+    margin-left: 6rem;
+    padding-top: 0.4rem;
+}
+.sub_title_text {
+    /* position: absolute; */
+    margin-top: -1.2rem;
+    margin-left: 7rem;
+    padding-bottom: 1.2rem;
+}
+.text {
+    margin: 2rem 0 0.5rem 0;
+}
+.genre {
+    border: solid 1px #fff;
+    padding: 1rem 3rem 3rem 3rem;
+    margin: 0rem auto 2rem auto;
+}
+.diary {
+    border: solid 1px #fff;
+    padding: 1rem 3rem 3rem 3rem;
+}
+.calc_btn {
+    margin: 2rem 10rem 2rem 5rem;
+}
+.results {
+    border: solid 1px #fff;
+    margin: 2rem auto 2rem auto;
+    padding: 1rem 3rem 3rem 3rem;
+}
